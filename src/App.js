@@ -16,7 +16,7 @@ function App() {
             <Home></Home>
           </Route>
 
-          <Route path='/service'>
+          <Route path='/service/:serviceId'>
             <Service></Service>
           </Route>
 
