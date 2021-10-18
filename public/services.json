@@ -1,0 +1,58 @@
+[
+    {
+        "name": "Root Canal Treatment",
+        "img": "https://www.vejthani.com/wp-content/uploads/2019/03/Digital-dentistry-01-1-e1570120570902.jpg",
+        "diration": "6 to 8 week",
+        "amount": "20000 per pice",
+        "description": "Root canal treatment (endodontics) is a dental procedure used to treat infection at the centre of a tooth. Root canal treatment is not painful and can save a tooth that might otherwise have to be removed completely."
+    },
+    {
+        "name": "Orthodontics Treatment",
+        "img": "https://5.imimg.com/data5/LJ/JO/GLADMIN-64412213/orthodontic-treatment-services-500x500.png",
+        "diration": "3 to 6 Week",
+        "amount": "10000",
+        "description": "Orthodontic treatment is a way of straightening or moving teeth, to improve the appearance of the teeth and how they work. It can also help to look after the long-term health of your teeth, gums and jaw joints, by spreading the biting pressure over all your teeth."
+    },
+    {
+        "name": "Dental Crown & Bridge",
+        "img": "http://epionedentalcare.com/wp-content/uploads/2018/02/dentalbridge.jpg",
+        "diration": "4 to 5 Week",
+        "amount": "5000",
+        "description": "If you have one or more missing teeth, your dental professional may recommend that you get artificial replacements. There are removable options like dentures that you can take out and clean, but those can slide around, shift, or fall out – which understandably won't fly for many people. And that's why there are crowns affixed to dental implants and bridges which function more like your actual teeth. But between crown implants and bridges, which option is the best choice for you? We'll break down the similarities, differences, advantages, and disadvantages between these two fixed artificial tooth options so that even if you have a fake tooth or two, you'll have a smile that's as real as can be."
+    },
+    {
+        "name": "Gum Treatment",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaHbof8eA_h3-lXZqHfxAEuW5SM85gaS-76g&usqp=CAU",
+        "diration": "6 to 8 week",
+        "amount": "2000 per pice",
+        "description": "In some cases of gum disease, root planing (debridement) may be required. This is a deep clean under the gums that gets rid of bacteria from the roots of your teeth. Before having the treatment, you may need to have a local anaesthetic (painkilling medication) to numb the area. You may experience some pain and discomfort for up to 48 hours after having root planing."
+    },
+    {
+        "name": "Children Dentistry",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS89uqfVXrQaW9p5ZTeTjQkC7rEv3DpXu7fqw&usqp=CAU",
+        "diration": "4 to 5 week",
+        "amount": "80000 per pice",
+        "description": "The dental professional that specializes in the care of children's teeth and oral health is called a Pedodontist or Pediatric Dentist."
+    },
+    {
+        "name": "Laser Dentistry",
+        "img": "https://www.danapointsmiles.com/wp-content/uploads/2020/04/laser.jpg",
+        "diration": "1 to 3 week",
+        "amount": "30000 per pice",
+        "description": "Laser dental cleaning has proven to be effective at restoring the health of gums, allowing patients to keep their teeth as they grow older. This minimizes the risk of more serious oral health concerns, including oral cancer."
+    },
+    {
+        "name": "veneer treatment",
+        "img": "https://chandanorthodontics.com/images/my-img/treatment/Veeners.jpg",
+        "diration": "2 to 4 Days",
+        "amount": "500",
+        "description": "Veneers can be used to treat a number of different cosmetic concerns, including chipped, broken, discolored, or smaller-than-average teeth. Some people may only get one veneer in the case of a broken or chipped tooth, but many get between six to eight veneers in order to create an even, symmetrical smile."
+    },
+    {
+        "name": "Full Mouth Rehabilitation",
+        "img": "https://www.victoriasquaredental.com/wp-content/uploads/2020/10/Crooked-teeth-blog-graphic-scaled-1-1080x675.jpg",
+        "diration": "2 to 3 Week",
+        "amount": "8000",
+        "description": "One of the best seminar of the author. Covered in detail regarding the increasing vertical dimension, centric relation, methods to record centric relation, philosophies of occlusion and in detail everything about full mouth rehabilitation."
+    }
+]
