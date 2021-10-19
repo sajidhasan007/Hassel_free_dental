@@ -10,9 +10,13 @@ import Dentists from './Pages/Dentists/Dentists';
 import Dentist from './Dentist/Dentist';
 import AuthProvider from './Firebase/Context/AuthProvider';
 import Login from './Pages/Login/Login';
+import NotFound from './Pages/NotFound/NotFound';
+import About from './Pages/About/About';
+import Technology from './Pages/Technology/Technology';
+import PrivateRoute from './Pages/PrivateRoute/PrivateRoute';
 function App() {
   return (
-    <div className="App">
+    <div className="">
       <AuthProvider>
         <Router>
           <Header></Header>
@@ -25,20 +29,32 @@ function App() {
               <Home></Home>
             </Route>
 
-            <Route path='/destists'>
+            <PrivateRoute path='/destists'>
               <Dentists></Dentists>
-            </Route>
+            </PrivateRoute>
 
-            <Route path='/dentist/:dentistId'>
+            <PrivateRoute path='/dentist/:dentistId'>
               <Dentist></Dentist>
-            </Route>
+            </PrivateRoute>
 
             <Route path='/login'>
               <Login></Login>
             </Route>
 
-            <Route path='/service/:serviceId'>
+            <PrivateRoute path='/service/:serviceId'>
               <Service></Service>
+            </PrivateRoute>
+
+            <Route path='/about'>
+              <About></About>
+            </Route>
+
+            <PrivateRoute path='/technology'>
+              <Technology></Technology>
+            </PrivateRoute>
+
+            <Route path='*'>
+              <NotFound></NotFound>
             </Route>
 
           </Switch>

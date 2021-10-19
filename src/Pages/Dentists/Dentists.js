@@ -1,11 +1,15 @@
 import React from 'react';
-import { Card, Col, Container, Row } from 'react-bootstrap';
+import { Card, Col, Container, Row, Spinner } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import DentistsData from '../Shared/Hooks/DentistsData';
+import useAuth from '../Shared/Hooks/useAuth';
 
 const Dentists = () => {
     const { dentists } = DentistsData();
-    console.log(dentists);
+    const { isLoading, setIsLoading } = useAuth();
+
+
+
     return (
         <div>
 
@@ -19,8 +23,9 @@ const Dentists = () => {
                                 </div>
                                 <Card.Body>
                                     <Card.Title>{dentist.name}</Card.Title>
+                                    <h6>specialist: {dentist.Specialist}</h6>
                                     <Card.Text>
-                                        <h6>specialist: {dentist.Specialist}</h6>
+
 
                                     </Card.Text>
                                     <Link to={`/dentist/${dentist.id}`}><button className="btn btn-warning">Make an Appointment</button></Link>

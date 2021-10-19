@@ -6,7 +6,7 @@ const DentistsData = () => {
 
     useEffect(() => {
 
-        fetch('./Dentists.json')
+        fetch('/Dentists.json')
             .then(res => res.json())
             .then(data => setDentists(data))
 

@@ -9,8 +9,8 @@ import './Services.css';
 const Services = () => {
     const { services } = ServicesData();
     return (
-        <div className='services' id='service'>
-            <div className='m-3 bg-primary text-white'>
+        <div className='services mb-5' id='service'>
+            <div className='m-3 bg-primary text-center text-white'>
                 <h1>Our Services</h1>
             </div>
             <div>
