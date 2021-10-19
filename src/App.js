@@ -6,24 +6,47 @@ import Home from './Pages/Home/Home';
 import Footer from './Pages/Shared/Footer/Footer';
 import Service from './Pages/Home/Service/Service';
 import Services from './Pages/Home/Services/Services';
+import Dentists from './Pages/Dentists/Dentists';
+import Dentist from './Dentist/Dentist';
+import AuthProvider from './Firebase/Context/AuthProvider';
+import Login from './Pages/Login/Login';
 function App() {
   return (
     <div className="App">
-      <Router>
-        <Header></Header>
-        <Switch>
-          <Route path='/home'>
-            <Home></Home>
-          </Route>
+      <AuthProvider>
+        <Router>
+          <Header></Header>
+          <Switch>
+            <Route exact path='/'>
+              <Home></Home>
+            </Route>
 
-          <Route path='/service/:serviceId'>
-            <Service></Service>
-          </Route>
+            <Route path='/home'>
+              <Home></Home>
+            </Route>
 
-        </Switch>
+            <Route path='/destists'>
+              <Dentists></Dentists>
+            </Route>
 
-        <Footer></Footer>
-      </Router>
+            <Route path='/dentist/:dentistId'>
+              <Dentist></Dentist>
+            </Route>
+
+            <Route path='/login'>
+              <Login></Login>
+            </Route>
+
+            <Route path='/service/:serviceId'>
+              <Service></Service>
+            </Route>
+
+          </Switch>
+
+          <Footer></Footer>
+        </Router>
+      </AuthProvider>
+
     </div>
   );
 }

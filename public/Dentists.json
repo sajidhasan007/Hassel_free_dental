@@ -1,0 +1,50 @@
+[
+    {
+        "id": "1",
+        "name": "Dr. Bread Hok",
+        "img": "https://media.istockphoto.com/photos/happy-healthcare-practitioner-picture-id138205019?k=20&m=138205019&s=612x612&w=0&h=KpsSMVsplkOqTnAJmOye4y6DcciVYIBe5dYDgYXLVW4=",
+        "Available": "11 AM to 5 PM",
+        "Specialist": "Laser Dentistry",
+        "Visit_Fee": "1000 tk"
+    },
+    {
+        "id": "2",
+        "name": "Dr. Mahi Anclo",
+        "img": "https://media.istockphoto.com/photos/doctor-with-a-stethoscope-hand-in-her-pocket-closeup-of-a-female-picture-id1265438538?b=1&k=20&m=1265438538&s=170667a&w=0&h=9Deo8jS9LhC--tFcj_NciWy1Nz2L5rLHTAYXeAjq_f4=",
+        "Available": "11 AM to 5 PM",
+        "Specialist": "Children Dentistry",
+        "Visit_Fee": "800 tk"
+    },
+    {
+        "id": "3",
+        "name": "Dr. Hanry William",
+        "img": "https://image.freepik.com/free-photo/portrait-smiling-handsome-male-doctor-man_171337-5055.jpg",
+        "Available": "10 AM to 5 PM",
+        "Specialist": "Root Canal Treatment",
+        "Visit_Fee": "1500 tk"
+    },
+    {
+        "id": "4",
+        "name": "Dr. Criastian Aricson",
+        "img": "https://st3.depositphotos.com/10654668/13844/i/600/depositphotos_138445604-stock-photo-male-doctor-in-hospital.jpg",
+        "Available": "2 PM to 7 PM",
+        "Specialist": "Gum Treatment",
+        "Visit_Fee": "1000 tk"
+    },
+    {
+        "id": "5",
+        "name": "Dr. Omar Cai",
+        "img": "https://img.freepik.com/free-photo/portrait-hansome-young-male-doctor-man_171337-5068.jpg?size=626&ext=jpg",
+        "Available": "9 AM to 5 PM",
+        "Specialist": "Full Mouth Rehabilitation",
+        "Visit_Fee": "600 tk"
+    },
+    {
+        "id": "6",
+        "name": "Dr. Minila Amed",
+        "img": "https://media.istockphoto.com/photos/female-doctor-at-the-hospital-picture-id510414344?b=1&k=20&m=510414344&s=170667a&w=0&h=Dq0aEGO98lm9mBke6OQO0c6hiVO7KV2DupE9UZVHQjU=",
+        "Available": "11 AM to 5 PM",
+        "Specialist": "Veneer  Dental Crown & Bridge",
+        "Visit_Fee": "1200 tk"
+    }
+]

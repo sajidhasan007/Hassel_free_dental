@@ -3,7 +3,7 @@ import { useParams } from 'react-router';
 import ServicesData from '../../Shared/Hooks/ServicesData';
 
 const Service = () => {
-    //const { services } = ServicesData();
+    const { services } = ServicesData();
     const { serviceId } = useParams();
 
     return (
