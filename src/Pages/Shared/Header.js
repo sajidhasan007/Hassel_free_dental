@@ -4,10 +4,12 @@ import { HashLink } from 'react-router-hash-link';
 import useAuth from './Hooks/useAuth';
 import './Header.css';
 
+import user_image from '../../images/header/user.png';
+
 
 const Header = () => {
     const { user, handlesignout } = useAuth();
-    console.log(user);
+    //console.log(user);
 
     //console.log('print from header ', user);
 
@@ -29,7 +31,7 @@ const Header = () => {
                             <>
                                 <Navbar.Text>
                                     <a href="#login">{user?.name}</a>
-                                    <img className='header-image' src={user?.img} alt="" />
+                                    <img className='header-image' src={user?.img || user_image} alt="" />
                                 </Navbar.Text>
                                 <button className='btn btn-danger' onClick={handlesignout}>SignOut</button>
                             </>

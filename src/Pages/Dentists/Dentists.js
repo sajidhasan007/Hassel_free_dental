@@ -6,10 +6,6 @@ import useAuth from '../Shared/Hooks/useAuth';
 
 const Dentists = () => {
     const { dentists } = DentistsData();
-    const { isLoading, setIsLoading } = useAuth();
-
-
-
     return (
         <div>
 
